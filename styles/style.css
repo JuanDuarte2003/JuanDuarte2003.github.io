@@ -1,0 +1,8 @@
+.column {
+    display: flex;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    flex: 50%;
+}
